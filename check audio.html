@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <b id="song1">clickme</b>
+   
+    <i   class=" fa-regular fa-circle-pause " id="playicon"></i>
+    <i   class="fa-regular fa-circle-play fa-2xl"></i>
+    <script src="https://kit.fontawesome.com/6e7d891868.js" crossorigin="anonymous"></script>
+ <script>
+    let playicon=document.getElementById('playicon');
+    let audio=document.getElementById('song1');
+    function playSong(){
+        let song=new Audio('Cheques.mp3');
+        song.play();
+        playicon.classList.remove(' fa-regular fa-circle-play fa-2xl ');
+        playicon.classList.add(' fa-regular fa-circle-pause fa-2xl');
+    }
+    playicon.addEventListener('click',playSong);
+ </script>
+</body>
+</html>

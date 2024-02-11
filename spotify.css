@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap');
+
+body {
+    background-color: antiquewhite;
+    height: fit-content;
+
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* above css makes all items padding and margin 0 and 0 */
+.myclass {
+    background-color: black;
+    color: antiquewhite;
+    display: flex;
+    height: 65px;
+    align-items: center;
+
+}
+
+img {
+    /* mix-blend-mode: multiply; */
+    /* background-color: rgb(231, 210, 210); */
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    height: 75px;
+    width: 145px;
+    margin-left: -8px;
+}
+
+
+.myclass ul {
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    align-items: center;
+
+}
+
+.myclass li {
+
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+    margin: 0px 13px;
+    font-size: 15px;
+}
+
+.myclass ul a {
+    text-decoration: none;
+    color: antiquewhite;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.mybox {
+    background-color: #000000;
+    color: antiquewhite;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 8px;
+    border-radius: 12px;
+    height: 100%;
+    width: 70%;
+    min-height: 65vh;
+    position: relative;
+    left: 225px;
+    top: 45px;
+    padding: 14px;
+    background-image: url('myimage.jpg');
+    background-size: 100%;
+    background-position: left;
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+}
+
+.mybox h1 {
+    margin: 6px 15px;
+}
+
+.bottom {
+    background-color: #000000;
+    color: antiquewhite;
+    height: 105px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    
+    width: 100%;
+}
+
+
+
+
+
+#myloader {
+    margin-top: -27px;
+    width: 75%;
+    cursor: pointer;
+}
+
+.icons {
+    position: absolute;
+    bottom: 8px;
+    cursor: pointer;
+    top: 64px;
+}
+
+
+
+ .songbanner {
+    margin: 14px 24px;
+ }
+
+ #head {
+    position: relative;
+    top: -110px;
+    left: 33px;
+}
+
+
+
+
+#myimage {
+    width: 155px;
+    height: 110px;
+    border-radius: 17px;
+
+
+}
+
+.songbanner h{
+    margin: 40px 40px;
+    font-size: 13px;
+    cursor: pointer;
+
+}
+
+
+
+
+.songtitle {
+    font-family:  'Montserrat', sans-serif;;
+    margin: 19px 0px;
+}
+
+.mylink {
+    text-decoration: none;
+}
+
+.mygif {
+    position: absolute;
+    top: 37px;
+    height: 85px;
+    width: 64px;
+    left: 45px;
+    top: 6px;
+    opacity: 0;
+    transition: opacity is ease-in;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+.mygif p{
+    font-family: 'Montserrat', sans-serif;
+    position: absolute;
+    top: 0;
+    left: -17px;
+    
+}
+/* here above we are applying CSS-transition property */
+
+/* here am writing css for responsive ness */
+@media (max-width:1307px){
+    .mybox {
+        flex-wrap: wrap;
+        position: relative;
+        left: 40px;
+    }
+
+    #head {
+        position: relative;
+        top: -4px;
+        right: 16px;
+        left: -56px;
+    }
+    .mygif {
+        position: relative;
+        left: -54px;
+        bottom: 23px;
+        height: 1px;
+        width: 0px;
+        top: -7px;
+        color: lawngreen;
+    }
+    .bottom {
+        /* position: sticky; */
+        bottom: -35px;
+        border-radius: -2px;
+        height: 102px;
+        margin-bottom: 30px;
+    }
+  
+
+}
