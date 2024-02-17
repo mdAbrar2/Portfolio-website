@@ -331,8 +331,18 @@ li a {
 .X {
   margin-top: 22px;
 }
+.github {
+  margin-top: 22px;
+}
 
 #twitter-logo {
+  height: 37px;
+  margin-top: 9px;
+  /* border-radius: 15px; */
+  position: relative;
+  top: 12px;
+}
+#github-logo {
   height: 37px;
   margin-top: 9px;
   /* border-radius: 15px; */
