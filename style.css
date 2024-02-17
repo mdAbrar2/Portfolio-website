@@ -252,14 +252,15 @@ li a {
 
 .myform {
   animation: tracking-in-expand 2s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
-
+;
   margin-top: 104px;
   margin-left: 168px;
 
   border-radius: 14px;
+   border: solid black; 
   padding: 24px;
   height: 257px;
-  width: 597px;
+  width: 535px;
   font-family: 'Montserrat Alternates', sans-serif;
   font-weight: bold;
   font-size: 13px;
@@ -273,11 +274,13 @@ li a {
   font-family: 'Montserrat Alternates', sans-serif;
   font-weight: bold;
   border-radius: 14px;
-  width: 174px;
+  width: 256px;
   align-self: center;
-  height: 38px;
-
+  height: 54px;
+  margin-top: 65px;
+  margin-left: -36px;
 }
+
 
 .heading {
   font-size: large;
@@ -286,6 +289,68 @@ li a {
 #submit:hover {
   background-color: rgb(239, 217, 217);
 }
+#phoneimg{
+  position: absolute;
+}
+.formborder{
+  border: #000000;
+}
+#phoneimg {
+  position: absolute;
+  top: 102px;
+  left: 750px;
+  height: 312px;
+}
+#conthead {
+  position: absolute;
+  top: 25px;
+  right: 686px;
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-size: x-large;
+  font-weight: 600;
+}
+
+.continfo {
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-size: large;
+  font-weight: 600;
+  margin-top: 124px;
+  margin-left: 64px;
+}
+
+.linkedin {
+  margin-top: 19px;
+}
+#linkedin-logo {
+  height: 37px;
+  margin-top: 9px;
+  border-radius: 15px;
+  position: relative;
+  top: 12px;
+}
+.X {
+  margin-top: 22px;
+}
+
+#twitter-logo {
+  height: 37px;
+  margin-top: 9px;
+  /* border-radius: 15px; */
+  position: relative;
+  top: 12px;
+}
+
+#goback {
+  margin-top: 40px;
+  margin-left: 321px;
+  width: 123px;
+  border-radius: 12px;
+}
+
+#goback:hover{
+  background-color:  rgb(239, 217, 217);
+}
+
 
 @media(max-width:720px) {
   .sidebar {
@@ -348,17 +413,59 @@ li a {
     border: solid black;
   }
 
-  .myform {
-    left: -185px;
+  /* css for conatct me page */
+
+  #goback {
+    position: relative;
+    top: 35px;
+    left: -168px;
+}
+  #conthead {
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: x-large;
+    font-weight: 600;
+    position: absolute;
+    top: 11px;
+    left: 88px;
+    width: 242px;
+}
+   #phoneimage{
+     display: none;  
+
+  }  
+ .myform {
+    left: -148px;
     position: relative;
     right: 212px;
     width: 338px;
     margin-right: 1px;
     height: 587px;
-    top: -104px;
-  }
+    top: -8px;
+    border: none;
+}
+#textarea {
+  margin-top: 1px;
+  border-radius: 13px;
+  border: solid 2px;
+  position: absolute;
+  top: 199px;
+  left: 56px;
+  height: 119px;
+  width: 169px;
+}
 
-
+.continfo {
+  margin-top: -31px;
+  position: absolute;
+  top: 565px;
+}
+   #phoneimg {
+    right: 7px;
+    left: 307px;
+    top: 12px;
+    display: none;
+}
+  
   .mb-1 {
 
     margin: 18px;
@@ -372,7 +479,10 @@ li a {
   .mb-3 {
     margin: 18px;
   }
-
+  #submit {
+    margin-top: 148px;
+    margin-left: -5px;
+}
 
   .emailbox {
     border-radius: 7px;
@@ -460,7 +570,9 @@ li a {
     }
   }
 
-  .goals {}
+  .goals {
+
+  }
 
   .navbar {
 
@@ -498,13 +610,26 @@ li a {
 
 }
 
-.phnobox {
-  width: 157px;
-  border-radius: 7px;
-}
 
-.emailbox {
+#name {
+  width: 242px;
   border-radius: 7px;
+  margin-left: 12px;
+}
+#email {
+  border-radius: 7px;
+  margin-left: 16px;
+  margin-bottom: -8px;
+  width: 249px;
+}
+#textarea {
+  margin-top: 1px;
+  border-radius: 13px;
+  border: solid 2px;
+ 
+  
+  height: 119px;
+  width: 253px;
 }
 
 .mb-1 {
